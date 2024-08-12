@@ -1,5 +1,7 @@
 .blog__banner {
-  display: flex;
   object-fit: cover;
-  justify-content: center;
+  display: block !important;
+  margin: 0 auto !important;
+  width: max-content;
+  position: relative;
 }
