@@ -10,7 +10,7 @@ function Main() {
         <BlogBanner />
         <Advertisement />
         <MainBlogItem />
-        {/* <Advertisement /> */}
+        <Advertisement />
       </main>
     </>
   );
