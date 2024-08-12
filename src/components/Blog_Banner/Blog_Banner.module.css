@@ -1,7 +1,4 @@
 .blog__banner {
   object-fit: cover;
-  display: block !important;
-  margin: 0 auto !important;
-  width: max-content;
   position: relative;
 }

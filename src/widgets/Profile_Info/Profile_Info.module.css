@@ -1,0 +1,30 @@
+.blog__info {
+  display: flex;
+  margin-top: 1.5rem;
+  align-items: center;
+}
+
+.blog__info img {
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  width: 2.25rem;
+  height: 2.25rem;
+  object-fit: cover;
+  font-weight: 700;
+}
+
+.blog__info_author {
+  margin-left: 0.5rem;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #97989f;
+}
+.blog__info_date {
+  margin-left: 0.5rem;
+  color: #97989f;
+  font-weight: 400;
+  font-size: 1rem;
+}

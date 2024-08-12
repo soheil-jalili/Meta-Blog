@@ -1,0 +1,18 @@
+/* Blog Badge */
+.badge__main div {
+  font-weight: 500 !important;
+}
+.blog__badge {
+  display: block;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+  width: 6.0625rem;
+  height: 1.75rem;
+  display: flex;
+  padding: 0.5rem 1rem;
+  align-items: center;
+  justify-content: center;
+}

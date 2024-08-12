@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from "../../../assets/img/logo.png";
+import logo from "../../assets/img/logo.png";
 import styles from "./Nav.module.css";
 import { IoMdSearch } from "react-icons/io";
 import { MdOutlineWbSunny } from "react-icons/md";

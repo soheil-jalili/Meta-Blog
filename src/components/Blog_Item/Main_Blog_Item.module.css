@@ -1,0 +1,12 @@
+.latest__post__title {
+  font-size: 1.5rem;
+  color: #181a2a;
+  font-weight: bold !important;
+  margin-bottom: 2rem;
+}
+
+.latest__post {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+}

@@ -1,0 +1,32 @@
+.main__ads {
+  width: 46.875rem;
+  height: 6.25rem;
+  border-radius: 1.2rem;
+  -webkit-border-radius: 1.2rem;
+  -moz-border-radius: 1.2rem;
+  -ms-border-radius: 1.2rem;
+  -o-border-radius: 1.2rem;
+  background-color: #e8e8ea;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin: 8rem auto 5rem;
+}
+.main__ads > * {
+  margin-top: 0.3rem;
+}
+
+.main__ads__title {
+  color: #696a75;
+}
+.main__ads__desc {
+  color: #696a75;
+  font-size: 1.25rem;
+  font-weight: 600 !important;
+}
+
+.main__ads__size {
+  color: #696a75;
+  font-size: 0.8rem;
+}
