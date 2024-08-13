@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import styles from "./Footer.module.css";
-import FooterCopyRight from "../FooterCopyRight/Footer_Copy_Right";
+import FooterCopyRight from "../Footer_Copy_Right/Footer_Copy_Right";
 import { MdOutlineEmail } from "react-icons/md";
 import ButtonSub from "../../widgets/Button_Sub/Button_Sub";
 

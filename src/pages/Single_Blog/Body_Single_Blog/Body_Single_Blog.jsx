@@ -6,6 +6,7 @@ import tracey from "../../../assets/img/profile__photo/tracey.png";
 import banner from "../../../assets/img/banner.png";
 import Footer from "../../../components/Footer/Footer";
 import Advertisement from "../../../components/Advertisement/Advertisement";
+import MainPoint from "../../../components/Main_Point/Main_Point";
 
 function BodySingleBlog() {
   return (
@@ -76,6 +77,12 @@ function BodySingleBlog() {
         lectus magna fringilla. Nec ullamcorper sit amet risus nullam eget
         felis. Tincidunt arcu non sodales neque sodales ut etiam sit amet.
       </p>
+
+      <MainPoint
+        mainTitle={
+          "“Traveling can expose you to new environments and potential health risks, so it's crucial to take precautions to stay safe and healthy.”"
+        }
+      />
 
       <img src={banner} alt="" className={styles.single__blog__banner1} />
 
