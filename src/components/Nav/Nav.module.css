@@ -76,6 +76,15 @@
   margin-left: 2.5rem;
   display: flex;
   align-items: center;
+  transition: all ease-in 0.2s;
+  -webkit-transition: all ease-in 0.2s;
+  -moz-transition: all ease-in 0.2s;
+  -ms-transition: all ease-in 0.2s;
+  -o-transition: all ease-in 0.2s;
+  outline: none;
+  border: none;
+  position: relative;
+  cursor: pointer;
 }
 
 .nav__switch__mode__circle {
@@ -87,12 +96,12 @@
   -moz-border-radius: 100%;
   -ms-border-radius: 100%;
   -o-border-radius: 100%;
-  margin-left: 0.2rem;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
   border: none;
+  position: absolute;
 }
 
 .nav__switch__mode__circle svg {

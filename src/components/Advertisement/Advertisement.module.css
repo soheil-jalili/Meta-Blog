@@ -11,10 +11,9 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  margin: 8rem auto 5rem;
 }
 .main__ads > * {
-  margin-top: 0.3rem;
+  margin-top: 0.4rem;
 }
 
 .main__ads__title {

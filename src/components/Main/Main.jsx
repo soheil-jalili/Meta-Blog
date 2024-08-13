@@ -8,9 +8,20 @@ function Main() {
     <>
       <main className={styles.main}>
         <BlogBanner />
-        <Advertisement />
+        {/* margin: 8rem auto 5rem; */}
+        <Advertisement
+          marginTop={"8rem"}
+          marginBottom={"5rem"}
+          marginRight={"auto"}
+          marginLeft={"auto"}
+        />
         <MainBlogItem />
-        <Advertisement />
+        <Advertisement
+          marginTop={"5rem"}
+          marginBottom={"5rem"}
+          marginRight={"auto"}
+          marginLeft={"auto"}
+        />
       </main>
     </>
   );

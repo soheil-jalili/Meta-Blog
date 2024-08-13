@@ -1,6 +1,6 @@
 import styles from "./Button_Sub.module.css";
-function ButtonSub() {
-  return <button className={styles.button__sub}>Subscribe</button>;
+function ButtonSub({ title }) {
+  return <button className={styles.button__sub}>{title}</button>;
 }
 
 export default ButtonSub;

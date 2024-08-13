@@ -25,6 +25,7 @@ import eric from "../../assets/img/profile__photo/eric.png";
 import jason from "../../assets/img/profile__photo/jason.png";
 import tracey from "../../assets/img/profile__photo/tracey.png";
 import BlogItemCard from "../Blog_Item_Card/Blog_Item_Card";
+import { Link } from "react-router-dom";
 
 function MainBlogItem() {
   return (
@@ -122,6 +123,12 @@ function MainBlogItem() {
           }
         />
       </section>
+
+      <div className={styles.view_all__wrapper}>
+        <Link to={"/blogs"} className={styles.view__all}>
+          View All Post
+        </Link>
+      </div>
     </>
   );
 }

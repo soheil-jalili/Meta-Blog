@@ -11,3 +11,29 @@
   gap: 1.25rem;
   justify-content: space-around;
 }
+
+.view_all__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.view__all {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid #696a75;
+  padding: 0.75rem 1.25rem;
+  border-radius: 0.375rem;
+  -webkit-border-radius: 0.375rem;
+  -moz-border-radius: 0.375rem;
+  -ms-border-radius: 0.375rem;
+  -o-border-radius: 0.375rem;
+  text-align: center;
+  width: 6.938rem;
+  height: 2rem;
+  color: #696a75;
+  font-weight: 500 !important;
+  margin: 2rem 0 0;
+  outline: none;
+}

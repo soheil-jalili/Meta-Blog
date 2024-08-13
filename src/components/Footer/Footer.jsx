@@ -93,13 +93,11 @@ function Footer() {
 
               <MdOutlineEmail />
             </div>
-
-            <ButtonSub />
+            <ButtonSub title={"Subscribe"} />
           </section>
         </div>
+        <FooterCopyRight />
       </div>
-
-      <FooterCopyRight />
     </footer>
   );
 }

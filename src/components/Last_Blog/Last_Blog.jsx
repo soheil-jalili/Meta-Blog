@@ -7,10 +7,6 @@ import Badge from "../../widgets/Badge/Badge.jsx";
 function LastBlog() {
   return (
     <div className={styles.last__blog__container}>
-      <div className={styles.blog__badge}>
-        <Link>Technology</Link>
-      </div>
-
       <Badge
         backgroundColor={"#4b6bfb"}
         title={"Technology"}

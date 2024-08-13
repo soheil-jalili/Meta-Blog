@@ -46,20 +46,40 @@ function Nav() {
         </div>
 
         {/* Switch Button */}
-        <div className={styles.nav__switch__mode}>
-          <button
+        <button
+          style={
+            theme == "light"
+              ? {
+                  backgroundColor: "#F4F4F5",
+                }
+              : {
+                  backgroundColor: "#4B6BFB",
+                }
+          }
+          className={styles.nav__switch__mode}
+          onClick={() => {
+            if (theme == "light") {
+              setTheme("dark");
+            } else {
+              setTheme("light");
+            }
+          }}
+        >
+          <div
+            style={
+              theme == "light"
+                ? {
+                    left: "0.2rem",
+                  }
+                : {
+                    right: "0.2rem",
+                  }
+            }
             className={styles.nav__switch__mode__circle}
-            onClick={() => {
-              if (theme == "light") {
-                setTheme("dark");
-              } else {
-                setTheme("light");
-              }
-            }}
           >
             {theme == "light" ? <MdOutlineWbSunny /> : <IoMoon />}
-          </button>
-        </div>
+          </div>
+        </button>
       </div>
     </nav>
   );
