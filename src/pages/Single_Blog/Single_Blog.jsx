@@ -1,16 +1,13 @@
-import Badge from "../../widgets/Badge/Badge";
-import Nav from "./../../components/Nav/Nav";
+
+import HeaderSingleBlog from "./Header_Single_Blog/Header_Single_Blog";
+import MainSingleBlog from "./Main_Single_Blog/Main_Single_Blog";
+
 function SingleBlog() {
   return (
     <>
       <div className="container">
-        <Nav />
-        <Badge
-          backgroundColor={"#4B6BFB"}
-          link={"/"}
-          textColor={"#fff"}
-          title={"Technology"}
-        />
+        <HeaderSingleBlog />
+        <MainSingleBlog />
       </div>
     </>
   );
