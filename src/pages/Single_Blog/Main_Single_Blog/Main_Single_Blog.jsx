@@ -1,4 +1,5 @@
 import Badge from "../../../widgets/Badge/Badge";
+import BodySingleBlog from "../Body_Single_Blog/Body_Single_Blog";
 import styles from "./Main_Single_Blog.module.css";
 
 function MainSingleBlog() {
@@ -10,6 +11,8 @@ function MainSingleBlog() {
         textColor={"#fff"}
         title={"Technology"}
       />
+
+      <BodySingleBlog />
     </main>
   );
 }
