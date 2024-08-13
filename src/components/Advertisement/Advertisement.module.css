@@ -1,11 +1,11 @@
 .main__ads {
   width: 46.875rem;
   height: 6.25rem;
-  border-radius: 1.2rem;
-  -webkit-border-radius: 1.2rem;
-  -moz-border-radius: 1.2rem;
-  -ms-border-radius: 1.2rem;
-  -o-border-radius: 1.2rem;
+  border-radius: 0.75rem;
+  -webkit-border-radius: 0.75rem;
+  -moz-border-radius: 0.75rem;
+  -ms-border-radius: 0.75rem;
+  -o-border-radius: 0.75rem;
   background-color: #e8e8ea;
   display: flex;
   align-items: center;

@@ -38,7 +38,6 @@ function Nav() {
 
       <div className={styles.search__switch__button}>
         {/* Search */}
-
         <div className={styles.search__input__nav}>
           <input type="text" placeholder="Search" />
           <Link to={"/blog"}>
