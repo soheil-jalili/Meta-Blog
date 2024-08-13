@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Badge from "../../widgets/Badge/Badge.jsx";
 import ProfileInfo from "../../widgets/Profile_Info/Profile_Info.jsx";
 import styles from "./Blog_Item_Card.module.css";
@@ -19,7 +20,7 @@ function BlogItemCard({ img, category, title, profilePhoto, author, date }) {
           link={"/"}
         />
 
-        <h3 className={styles.blog__card__title}>{title}</h3>
+        <Link to={'/blog/2'} className={styles.blog__card__title}>{title}</Link>
 
         <ProfileInfo author={author} profileImg={profilePhoto} date={date} />
       </div>

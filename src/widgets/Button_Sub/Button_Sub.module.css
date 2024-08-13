@@ -11,4 +11,5 @@
   border: none;
   padding: 1.25rem 0.75rem;
   font-weight: 500 !important;
+  cursor: pointer;
 }

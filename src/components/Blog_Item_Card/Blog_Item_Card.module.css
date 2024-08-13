@@ -9,7 +9,7 @@
   height: 29.5rem;
   display: flex;
   flex-direction: column;
-  align-items: ;
+  align-items: center;
 }
 
 /* Blog Image */
@@ -27,7 +27,7 @@
 
 /* blog__card__description */
 .blog__card__description {
-  padding: 0 1rem;
+  padding: 0 0.2rem;
 }
 
 /* Blog Card Badge */
@@ -43,4 +43,5 @@
   font-weight: 600 !important;
   margin: 1rem 0 1.25rem;
   line-height: 28px;
+  display: block;
 }
