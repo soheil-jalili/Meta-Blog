@@ -1,8 +1,10 @@
+import ThemeContext from "../../context/Theme";
 import Advertisement from "../Advertisement/Advertisement";
 import BlogBanner from "../Blog_Banner/Blog_Banner";
 import MainBlogItem from "../Blog_Item/Main_Blog_Item";
 import styles from "./Main.module.css";
 
+import { useContext } from "react";
 function Main() {
   return (
     <>

@@ -4,11 +4,13 @@ import styles from "./Nav.module.css";
 import { IoMdSearch } from "react-icons/io";
 import { MdOutlineWbSunny } from "react-icons/md";
 
-import { useState } from "react";
+import { useContext, useState } from "react";
 import { IoMoon } from "react-icons/io5";
+import ThemeContext from "../../context/Theme";
 
 function Nav() {
-  const [theme, setTheme] = useState("light");
+  const { theme, setTheme } = useContext(ThemeContext);
+
   return (
     <nav className={styles.nav}>
       <div className={styles.nav__logo}>
